@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+    background-color: #f5f0e9;
+}
+header{
+ display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.logo{
+  font-size: 2.5rem;
+      text-decoration: none;   
+      font-weight: bold;
+  color: gray;
+}
+
+.hdr-btn{
+  font-size: 1.2rem;
+  color: white;
+  background-color: #f2930d;
+  border: 0;
+  border-radius: 5px;
+}
+
+main {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #f2930d;
+  margin: 5px;
+}
+
+.head-para {
+  font-size: 1.5rem;
+  text-align: center;
+  color: gray;
+}
+
+.create-post{
+  border-radius: 10px;
+  background-color: #f2930d;
+  margin: 10px;
+}
+
+h2{
+    text-decoration: none;   
+    color: white;    
+    margin: 30px;       
+    font-weight: bold;      
+    display: inline-block; 
+}
+
+h2:hover{
+  color: gray;
+}
+
+.post {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 20px;
+  background-color: #ede9e3;
+  border-radius: 10px;
+}
+
+p{
+  font-size: 1.5rem;
+  color: gray;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
+footer {
+  position: absolute;
+  bottom: 0;
+  color: gray;
+}

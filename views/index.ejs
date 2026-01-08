@@ -1,0 +1,27 @@
+<%- include("partials/header.ejs") %>
+<h1>Where Ideas Take Flight!</h1>
+<p class="head-para">Share your thoughts with the world</p>
+
+<div class="create-post">
+<a href="/create"><h2>Create New Post</h2></a>
+</div>
+
+
+<% if (posts.length === 0) { %>
+  <p>📝No posts yet.</p>
+<% } %>
+
+<% posts.forEach((post, index) => { %>
+  <div class="post">
+    <h2><%= post.title %></h2>
+    <p><%= post.content %></p>
+
+    <a href="/edit/<%= index %>">Edit</a>
+
+    <form action="/delete/<%= index %>" method="POST">
+      <button type="submit">Delete</button>
+    </form>
+  </div>
+<% }) %>
+
+<%- include("partials/footer.ejs") %>
