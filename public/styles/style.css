@@ -78,18 +78,18 @@ h2:hover {
   background-color: #fafafa;
 }
 
-.post-ttl{
+.post-ttl {
   color: #f2930d;
   font-weight: bolder;
   padding: auto;
 }
 
-.edit-para{
+.edit-para {
   font-size: 1rem;
   color: blue;
 }
 
-.btn-delete{
+.btn-delete {
   color: red;
   border: 1px solid red;
   background-color: #f5f0e9;
@@ -129,11 +129,25 @@ textarea {
   font-size: 1.2rem;
 }
 
-a{
+a {
   text-decoration: none;
   color: white;
   font-weight: bold;
   display: inline-block;
+}
+
+.edit-hdr {
+  color: #f2930d;
+  font-weight: 500;
+}
+
+.edit-btn {
+  background-color: #f2930d;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 12px 30px;
+  color: white;
+  font-size: 1.2rem;
 }
 
 footer {
