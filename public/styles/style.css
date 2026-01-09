@@ -1,22 +1,23 @@
 body {
   font-family: Arial, sans-serif;
   margin: 20px;
-    background-color: #f5f0e9;
-}
-header{
- display: flex;
-align-items: center;
-justify-content: space-between;
+  background-color: #f5f0e9;
 }
 
-.logo{
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
   font-size: 2.5rem;
-      text-decoration: none;   
-      font-weight: bold;
+  text-decoration: none;
+  font-weight: bold;
   color: gray;
 }
 
-.hdr-btn{
+.hdr-btn {
   font-size: 1.2rem;
   color: white;
   background-color: #f2930d;
@@ -51,21 +52,21 @@ h1 {
   color: gray;
 }
 
-.create-post{
+.create-post {
   border-radius: 10px;
   background-color: #f2930d;
   margin: 10px;
 }
 
-h2{
-    text-decoration: none;   
-    color: white;    
-    margin: 30px;       
-    font-weight: bold;      
-    display: inline-block; 
+h2 {
+  text-decoration: none;
+  color: white;
+  margin: 30px;
+  font-weight: bold;
+  display: inline-block;
 }
 
-h2:hover{
+h2:hover {
   color: gray;
 }
 
@@ -77,17 +78,28 @@ h2:hover{
   border-radius: 10px;
 }
 
-p{
+p {
   font-size: 1.5rem;
   color: gray;
+}
+
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
 }
 
 input,
 textarea {
   width: 100%;
-  margin-bottom: 10px;
+  padding: 12px 14px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  background-color: #fafafa;
 }
-
 
 footer {
   position: absolute;
