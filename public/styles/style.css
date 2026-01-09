@@ -26,9 +26,8 @@ header {
 }
 
 main {
-  position: absolute;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   top: 0;
   left: 0;
   display: flex;
@@ -71,11 +70,33 @@ h2:hover {
 }
 
 .post {
-  border: 1px solid #ccc;
-  padding: 15px;
+  height: 200px;
+  width: 400px;
+  padding: 12px 14px;
   margin: 20px;
-  background-color: #ede9e3;
+  border: 1px solid #ccc;
   border-radius: 10px;
+  transition: all 0.3s ease;
+  background-color: #fafafa;
+}
+
+.post-ttl{
+  color: #f2930d;
+  font-weight: bolder;
+  padding: auto;
+}
+
+.edit-para{
+  font-size: 1rem;
+  color: blue;
+}
+
+.btn-delete{
+  color: red;
+  border: 1px solid red;
+  background-color: #f5f0e9;
+  border-radius: 10px;
+  padding: 5px;
 }
 
 p {
@@ -110,15 +131,15 @@ textarea {
   font-size: 1.2rem;
 }
 
-footer {
-  position: absolute;
-  bottom: 0;
-  color: gray;
-}
-
 a{
   text-decoration: none;
   color: white;
   font-weight: bold;
   display: inline-block;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  color: gray;
 }

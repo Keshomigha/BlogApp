@@ -13,13 +13,13 @@
 
 <% posts.forEach((post, index) => { %>
   <div class="post">
-    <h2><%= post.title %></h2>
+    <h2 class="post-ttl"><%= post.title %></h2>
     <p><%= post.content %></p>
 
-    <a href="/edit/<%= index %>">Edit</a>
+    <a href="/edit/<%= index %>"><p class="edit-para">✒️Edit</p></a>
 
     <form action="/delete/<%= index %>" method="POST">
-      <button type="submit">Delete</button>
+      <button class="btn-delete" type="submit">🗑️Delete</button>
     </form>
   </div>
 <% }) %>
