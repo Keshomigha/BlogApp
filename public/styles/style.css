@@ -79,7 +79,7 @@ h2:hover {
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: gray;
 }
 
@@ -101,8 +101,24 @@ textarea {
   background-color: #fafafa;
 }
 
+.create-btn {
+  background-color: #f2930d;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 12px 30px;
+  color: white;
+  font-size: 1.2rem;
+}
+
 footer {
   position: absolute;
   bottom: 0;
   color: gray;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  display: inline-block;
 }
