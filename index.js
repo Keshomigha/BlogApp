@@ -52,5 +52,5 @@ app.post("/delete/:id", (req, res) => {
 
 // Start server
 app.listen(3000, () => {
-  console.log("Server running on http://localhost:3000");
+  console.log(`Server running on port ${port}`);
 });
